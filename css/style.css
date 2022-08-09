@@ -1,3 +1,6 @@
+*{
+    font-family: 'poppins';
+}
 :root {
     --body-text-color: #5c5957;
     --body-bg-color: #e2d9d5;
@@ -59,13 +62,43 @@ body {
 /*ROTATE*/
 .card-rotate::before {
     transform: rotate(-10deg);
-  }
-  
-  .card-rotate::after {
+}
+
+.card-rotate::after {
     transform: rotate(10deg);
-  }
-  
-  .card-rotate:hover::before,
-  .card-rotate:hover::after {
+}
+
+.card-rotate:hover::before,
+.card-rotate:hover::after {
     transform: none;
-  }
+}
+
+.about,
+.landing {
+    height: 100vh;
+}
+.about{
+    background: rgba(254, 250, 224, 0.54);
+}
+.btn:focus,
+.btn:focus-visible {
+    outline: none !important;
+    box-shadow: none !important;
+}
+.btn:hover{
+    background-color: #BC6C25!important;
+    border-color: #BC6C25 !important;
+}
+.btn{
+    background-color: #283618!important;
+    border-color: #283618 !important;
+}
+#name{
+    color: #BC6C25;
+}
+.nav-link:hover{
+    color: #BC6C25 !important;
+}
+.intro{
+    color: #606C38;
+}
